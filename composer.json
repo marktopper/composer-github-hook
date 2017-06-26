@@ -1,6 +1,9 @@
 {
   "name": "composer-github-hook",
   "description": "This is a hook",
+  "require": {
+    "marktopper/composer-hook-dependency-1": "dev-master"
+  },
   "extra": {
     "hook": {
       "enabled": {
