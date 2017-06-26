@@ -1,0 +1,16 @@
+{
+  "name": "composer-github-hook",
+  "description": "This is a hook",
+  "extra": {
+    "hook": {
+      "enabled": {
+        "providers": [
+          "GithubTestHookServiceProvider"
+        ],
+        "aliases": {
+          "Test": "ComposerGithubHook\\TestFacade"
+        }
+      }
+    }
+  }
+}
