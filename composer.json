@@ -12,7 +12,7 @@
   "extra": {
     "hook": {
       "providers": [
-        "ComposerGithubHook\\GithubTestHookServiceProvider"
+        "ComposerGithubHook\\ComposerGithubHookServiceProvider"
       ],
       "aliases": {
         "Test": "ComposerGithubHook\\TestFacade"
