@@ -15,7 +15,7 @@
         "ComposerGithubHook\\ComposerGithubHookServiceProvider"
       ],
       "aliases": {
-        "Test": "ComposerGithubHook\\TestFacade"
+        "Test": "ComposerGithubHook\\TestAlias"
       }
     }
   }
