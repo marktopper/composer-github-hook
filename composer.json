@@ -7,7 +7,7 @@
   "extra": {
     "hook": {
       "providers": [
-        "GithubTestHookServiceProvider"
+        "ComposerGithubHook\\GithubTestHookServiceProvider"
       ],
       "aliases": {
         "Test": "ComposerGithubHook\\TestFacade"
