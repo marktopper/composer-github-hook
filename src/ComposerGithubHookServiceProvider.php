@@ -1,8 +1,10 @@
 <?php
 
+namespace ComposerGithubHook;
+
 use Illuminate\Support\ServiceProvider;
 
-class GithubTestHookServiceProvider extends ServiceProvider
+class ComposerGithubHookServiceProvider extends ServiceProvider
 {
   public static $isBooted = false;
   public static $isRegistered = false;
