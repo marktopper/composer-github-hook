@@ -2,7 +2,8 @@
   "name": "composer-github-hook",
   "description": "This is a hook",
   "require": {
-    "marktopper/composer-hook-dependency-1": "dev-master"
+    "marktopper/composer-hook-dependency-1": "dev-master",
+    "marktopper/composer-hook-dependency-2": "dev-master"
   },
   "autoload": {
     "psr-4": {
