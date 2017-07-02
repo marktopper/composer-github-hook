@@ -4,6 +4,11 @@
   "require": {
     "marktopper/composer-hook-dependency-1": "dev-master"
   },
+  "autoload": {
+    "psr-4": {
+      "ComposerGithubHook\\": "src/"
+    }
+  },
   "extra": {
     "hook": {
       "providers": [
