@@ -6,13 +6,11 @@
   },
   "extra": {
     "hook": {
-      "enabled": {
-        "providers": [
-          "GithubTestHookServiceProvider"
-        ],
-        "aliases": {
-          "Test": "ComposerGithubHook\\TestFacade"
-        }
+      "providers": [
+        "GithubTestHookServiceProvider"
+      ],
+      "aliases": {
+        "Test": "ComposerGithubHook\\TestFacade"
       }
     }
   }
