@@ -4,8 +4,8 @@ namespace ComposerGithubHook;
 
 class TestAlias
 {
-  public static test()
+  public static foo()
   {
-    return 'test';
+    return 'bar';
   }
 }
